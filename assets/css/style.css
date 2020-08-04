@@ -3818,6 +3818,10 @@ only screen and (max-width: 767.98px) {
     font-weight: bold;
 }
 
+.text-normal {
+    color: #151515;
+}
+
 
 /* -----------End Custom Typhograph ----------- */
 
@@ -4034,6 +4038,56 @@ p {
 
 .blog-item {
     padding: 30px 0;
+}
+
+.wh-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.working-hour-group {
+    padding: 10px 0;
+    border: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 45px;
+    background-color: transparent !important;
+}
+
+.doctor-bio-detail li a {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.doctor-bio-detail span {
+    margin-left: 1em;
+}
+
+.sosmed-doctor {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sosmed-doctor li i {
+    background: #005231;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.doctor-name-detail {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px
+}
+
+.doctor-description {
+    font-size: 16px;
+    line-height: 28px;
 }
 
 @media(max-width:768px) {
