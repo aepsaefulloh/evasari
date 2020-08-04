@@ -2911,7 +2911,6 @@ only screen and (max-width: 767.98px) {
 
 .paginatoin-area {
     padding: 20px;
-    border: 1px solid #e1e1e1;
 }
 
 .paginatoin-area .pagination-box {
@@ -2953,13 +2952,13 @@ only screen and (max-width: 767.98px) {
 
 .paginatoin-area .pagination-box li a:hover {
     color: #fff;
-    border-color: #0172d0;
-    background-color: #0172d0;
+    border-color: #151515;
+    background-color: #151515;
 }
 
 .paginatoin-area .pagination-box li.active a {
     color: #fff;
-    background-color: #0172d0;
+    background-color: #005231;
 }
 
 
@@ -3896,7 +3895,7 @@ only screen and (max-width: 767.98px) {
 }
 
 
-/* footer Sosmed */
+/* ------- footer Sosmed ------- */
 
 .footer-sosmed {}
 
@@ -3955,4 +3954,48 @@ only screen and (max-width: 767.98px) {
 
 .icon.social.in i {
     left: 11px;
+}
+
+
+/* ------- Artikel ------- */
+
+.article-headline {
+    margin-top: 5em;
+}
+
+.select-article select {
+    width: 30%;
+    border-radius: 24px;
+    padding: 0 20px;
+    color: #005231 !important;
+    font-weight: bold;
+    background-color: #F3F7F8 !important;
+}
+
+.btn-article {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    z-index: 100;
+}
+
+@media(max-width:768px) {
+    .article-headline {
+        margin-top: 1em;
+    }
+    .select-article select {
+        width: 100%;
+        border-radius: 24px;
+        padding: 0 20px;
+        color: #005231 !important;
+        font-weight: bold;
+        background-color: #F3F7F8 !important;
+    }
+    .btn-article {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        right: 100%;
+        z-index: 100;
+    }
 }
