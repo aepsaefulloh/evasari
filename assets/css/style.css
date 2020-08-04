@@ -81,7 +81,6 @@ h1,
 }
 
 @media only screen and (max-width: 767.98px) {
-
     h1,
     .h1 {
         font-size: 28px;
@@ -89,7 +88,6 @@ h1,
 }
 
 @media only screen and (max-width: 479.98px) {
-
     h1,
     .h1 {
         font-size: 26px;
@@ -102,7 +100,6 @@ h2,
 }
 
 @media only screen and (max-width: 767.98px) {
-
     h2,
     .h2 {
         font-size: 26px;
@@ -110,7 +107,6 @@ h2,
 }
 
 @media only screen and (max-width: 479.98px) {
-
     h2,
     .h2 {
         font-size: 24px;
@@ -123,7 +119,6 @@ h3,
 }
 
 @media only screen and (max-width: 767.98px) {
-
     h3,
     .h3 {
         font-size: 20px;
@@ -528,7 +523,7 @@ only screen and (max-width: 767.98px) {
 /*------ main menu start ------*/
 
 .brand-logo {
-    max-width: 110px;
+    max-width: 100%;
 }
 
 .main-menu-wrapper {
@@ -577,7 +572,7 @@ only screen and (max-width: 767.98px) {
 
 .main-menu ul li:hover>a,
 .main-menu ul li.active>a {
-    color: #0172d0;
+    color: #00A965;
 }
 
 .main-menu ul li ul.dropdown {
@@ -751,7 +746,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .sticky.is-sticky.main-menu-wrapper .brand-logo {
-    max-width: 100px;
+    max-width: 100%;
 }
 
 
@@ -763,7 +758,7 @@ only screen and (max-width: 767.98px) {
     width: 100%;
     position: absolute;
     z-index: 1;
-    background-color: transparent;
+    background-color: #F3F7F8;
 }
 
 
@@ -1188,8 +1183,8 @@ only screen and (max-width: 767.98px) {
     line-height: 1;
     border-radius: 0;
     font-family: "Sarabun", sans-serif;
-    background-color: #0172d0;
-    border-radius: 50px;
+    background-color: #F64747;
+    border-radius: 5px;
     font-weight: 500;
 }
 
@@ -1539,7 +1534,6 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
-
     .testimonial-carousel-active.slick-arrow-style--testimonial_2 .slick-list,
     .hero-slider-active.slick-arrow-style--testimonial_2 .slick-list {
         margin: -30px -15px;
@@ -1588,7 +1582,7 @@ only screen and (max-width: 767.98px) {
     -o-transition: 0.4s;
     transition: 0.4s;
     border-radius: 50%;
-    background-color: #0172d0;
+    background-color: #00A965;
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
@@ -1618,7 +1612,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(0, 40%, 0);
         transform: translate3d(0, 40%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1632,7 +1625,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(0, 40%, 0);
         transform: translate3d(0, 40%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1651,7 +1643,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(-40%, 0, 0);
         transform: translate3d(-40%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1665,7 +1656,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(-40%, 0, 0);
         transform: translate3d(-40%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1684,7 +1674,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(40%, 0, 0);
         transform: translate3d(40%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1698,7 +1687,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(40%, 0, 0);
         transform: translate3d(40%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1716,12 +1704,10 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     50% {
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -1733,12 +1719,10 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     50% {
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -2137,7 +2121,6 @@ only screen and (max-width: 767.98px) {
 @media only screen and (min-width: 992px) and (max-width: 1199.98px),
 only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
-
     .service-list-left .service-item:nth-child(1),
     .service-list-left .service-item:nth-child(3) {
         margin-left: 0;
@@ -2148,7 +2131,6 @@ only screen and (max-width: 767.98px) {
     .service-list-left .service-item {
         margin-right: 30px;
     }
-
     .service-list-left .service-item:last-child {
         margin-right: 0;
     }
@@ -2178,7 +2160,6 @@ only screen and (max-width: 767.98px) {
     .service-list-right .service-item {
         margin-right: 30px;
     }
-
     .service-list-right .service-item:last-child {
         margin-right: 0;
     }
@@ -2598,7 +2579,6 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
-
     .team-member--hover-effect:hover:before,
     .team-member--hover-effect:hover:after,
     .team-member--hover-effect.active:before,
@@ -2620,7 +2600,6 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
-
     .team-member--hover-effect:hover:after,
     .team-member--hover-effect.active:after,
     .team-member--hover-effect.team-open:after {
@@ -2642,7 +2621,6 @@ only screen and (max-width: 767.98px) {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-
     .team-member--hover-effect:hover .team-member-info,
     .team-member--hover-effect.active .team-member-info,
     .team-member--hover-effect.team-open .team-member-info {
@@ -3893,7 +3871,7 @@ only screen and (max-width: 767.98px) {
     opacity: 0.5;
 }
 
-.doctor-img {
+.rounded-img {
     border-radius: 32px !important;
 }
 
@@ -3915,4 +3893,66 @@ only screen and (max-width: 767.98px) {
     border-bottom: 3px solid transparent;
     background-color: #f7f7f7;
     margin-bottom: 30px;
+}
+
+
+/* footer Sosmed */
+
+.footer-sosmed {}
+
+.icon {
+    position: relative;
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -khtml-border-radius: 20px 20px 20px 20px;
+    color: #FFFFFF;
+}
+
+.icon i {
+    font-size: 1.3em;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.icon.social {
+    float: left;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+    background: #505050;
+    color: #FFF;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.icon.social:hover {
+    background: #262626;
+    color: #6d6e71;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.icon.social.fb i {
+    left: 13px;
+    top: 10px;
+}
+
+.icon.social.tw i {
+    left: 11px;
+}
+
+.icon.social.in i {
+    left: 11px;
 }
