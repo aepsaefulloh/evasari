@@ -1,0 +1,9 @@
+#myTable th.asc:after {
+    display: inline;
+    content: '↓';
+}
+
+#myTable th.desc:after {
+    display: inline;
+    content: '↑';
+}

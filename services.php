@@ -15,7 +15,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo ROOT_URL?>/assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo ROOT_URL?>/assets/img/">
 
     <!-- CSS
 	============================================ -->
