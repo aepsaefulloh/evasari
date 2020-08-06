@@ -3806,7 +3806,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .subtitle-text {
-    padding: 0 15em;
+    padding: 0 15em !important;
 }
 
 
@@ -4134,6 +4134,30 @@ p {
     left: 0%;
 }
 
+.blog-rectangle1-md {
+    background-image: url(../img/pattern/Rectangle-md.png);
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: -10%;
+    z-index: -1;
+}
+
+.blog-rectangle2-md {
+    background-image: url(../img/pattern/Rectangle-md.png);
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 60%;
+    top: -10%;
+    z-index: -1;
+}
+
 .hero-dot1 {
     background-image: url(../img/pattern/dotted.png);
     position: absolute;
@@ -4144,4 +4168,28 @@ p {
     top: 130%;
     left: 60%;
     z-index: 1;
+}
+
+.blog-dot1 {
+    background-image: url(../img/pattern/dotted.png);
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 90%;
+    left: 70%;
+    z-index: -1;
+}
+
+.blog-dot2 {
+    background-image: url(../img/pattern/dotted.png);
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 90%;
+    left: 15%;
+    z-index: -1;
 }

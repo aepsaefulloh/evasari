@@ -68,7 +68,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
 
                             </div>
                             <div class="col-xl-3 col-sm-3 align-items-center">
-                            <span class="hero-rectangle2-sm"></span>
+                                <span class="hero-rectangle2-sm"></span>
 
                                 <div class="image1 p-2">
                                     <img src="<?php echo ROOT_URL?>/assets/img/beranda/hero1.jpg"
@@ -134,14 +134,17 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
             </div>
         </section>
 
-        <section class="about-wrapper-area section-padding pt-0 fix">
+        <section class="about-wrapper-area section-padding pt-5 fix">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="about-thumb text-center">
+                            <span class="blog-rectangle1-md"></span>
                             <img src="<?php echo ROOT_URL?>/assets/img/beranda/new_normal.jpg"
                                 class="img-fluid rounded-img" alt="about thumb">
+                            <span class="blog-dot1"></span>
                         </div>
+
                     </div>
                     <div class="col-lg-5 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="about-inner">
@@ -155,14 +158,17 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
             </div>
         </section>
 
-        <section class="about-wrapper-area section-padding pt-0 fix">
+        <section class="about-wrapper-area section-padding pt-5 fix">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 order-sm-2 order-lg-2 wow fadeInLeft" data-wow-duration="1s"
                         data-wow-delay=".5s">
                         <div class="about-thumb text-center">
+                            <span class="blog-dot2"></span>
                             <img src="<?php echo ROOT_URL?>/assets/img/beranda/olahraga.jpg"
                                 class="img-fluid rounded-img" alt="about thumb">
+                            <span class="blog-rectangle2-md"></span>
+
                         </div>
                     </div>
                     <div class="col-lg-5 order-sm-1 order-lg-1 wow fadeInRight" data-wow-duration="1s"
@@ -178,13 +184,13 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
             </div>
         </section>
 
-        <section class="section-padding pt-0 fix">
+        <section class="section-padding pt-5 fix">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <h1 class="h1 title text-green">Meet Our Doctors</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor posuere nulla sit
+                            <p class="subtitle-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor posuere nulla sit
                                 ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.</p>
                         </div>
                     </div>
