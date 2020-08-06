@@ -20,8 +20,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     <!-- CSS
 	============================================ -->
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,400i,500,600,700,800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo ROOT_URL?>/assets/css/vendor/bootstrap.min.css?<?php echo rand()?>">
     <!-- Font-awesome CSS -->
@@ -51,8 +50,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                 <div class="row">
                     <div class="col-md-12">
                         <div class="text-center">
-                            <h1 class="h1 title article-headline text-green">Article</h1>
-                            <p class="mt-3 text-green subtitle-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            <h1 class="h1 title article-headline text-normal">Article</h1>
+                            <p class="mt-3 text-normal subtitle-text">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit. Tortor
                                 posuere nulla sit ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque
                                 leo bibendum. </p>
@@ -73,6 +72,9 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
+                        <?php
+                            for($i=0; $i < 3; $i++){
+                        ?>
                         <div class="card border-0 pt-5 pb-5">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
@@ -81,12 +83,13 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 </div>
                                 <div class="col-md-8 align-self-center">
                                     <div class="card-body card-body-doctor p-5">
-                                        <h5 class="card-title text-green">Tips Tetap Sehat di New Normal</h5>
+                                        <h5 class="card-title text-normal">Tips Tetap Sehat di New Normal</h5>
                                         </p>
-                                        <p class="card-text">Tempus convallis egestas blandit quis id enim. Aliquam
+                                        <p class="card-text text-normal">Tempus convallis egestas blandit quis id enim.
+                                            Aliquam
                                             consequat etiam viverra odio. Magnis consectetur ut luctus risus dolor
                                             turpis. Metus justo.</p>
-                                        <a href="" class="text-green float-right btn-article">
+                                        <a href="" class="text-normal float-right btn-article">
                                             <i class="fa fa-arrow-right"></i>
                                         </a>
                                     </div>
@@ -94,27 +97,9 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
 
                             </div>
                         </div>
-                        <div class="card border-0 pt-5 pb-5">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/beranda/hero1.jpg"
-                                        class="card-img img-fluid rounded-img" alt="...">
-                                </div>
-                                <div class="col-md-8 align-self-center">
-                                    <div class="card-body card-body-doctor p-5">
-                                        <h5 class="card-title text-green">Tips Tetap Sehat di New Normal</h5>
-                                        </p>
-                                        <p class="card-text">Tempus convallis egestas blandit quis id enim. Aliquam
-                                            consequat etiam viverra odio. Magnis consectetur ut luctus risus dolor
-                                            turpis. Metus justo.</p>
-                                        <a href="" class="text-green float-right btn-article">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                        <?php
+                            }
+                        ?>
                     </div>
                 </div>
                 <div class="row">

@@ -21,6 +21,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
 	============================================ -->
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo ROOT_URL?>/assets/css/vendor/bootstrap.min.css?<?php echo rand()?>">
     <!-- Font-awesome CSS -->
@@ -51,114 +52,73 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     <div class="col-12">
                         <div class="breadcrumb-wrap">
                             <nav aria-label="breadcrumb">
-                                <h2 class="breadcrumb-title text-normal">Our Doctor</h2>
+                                <h2 class="breadcrumb-title text-normal">Komunitas</h2>
+                                <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit.
+                                    Tortor
+                                    posuere nulla sit
+                                    ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.
+                                </p>
                             </nav>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <section class="section-padding pt-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <figure class="figure">
-                            <img src="<?php echo ROOT_URL?>/assets/img/doctor/2.png?<?php echo rand()?>" class="figure-img img-fluid"
-                                alt="..." style="border-radius: 24px;">
-                        </figure>
-                    </div>
-                    <div class="col-md-4 pr-5">
-                        <h4 class="wh-title">Working Hours</h4>
-                        <ul class="list-group mt-3">
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center working-hour-group">
-                                Monday
-                                <span class="hour">07:00 - 20:00</span>
-                            </li>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center working-hour-group">
-                                Tuesday
-                                <span class="hour">07:00 - 20:00</span>
-                            </li>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center working-hour-group">
-                                Wednesday
-                                <span class="hour">07:00 - 20:00</span>
-                            </li>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center working-hour-group">
-                                Thursday
-                                <span class="hour">07:00 - 20:00</span>
-                            </li>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center working-hour-group">
-                                Friday
-                                <span class="hour">08:00 - 18:00</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 pl-5">
-                        <h4 class="wh-title">Contact Info</h4>
-                        <ul class="doctor-bio-detail mt-4">
-                            <li>
-                                <a href="" class="text-normal">
-                                    <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="text-normal">
-                                    <i class="fa fa-phone"></i></i><span>+01 236 547 8985</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="sosmed-doctor">
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section-padding pt-0">
+        <section class="section-padding pt-1">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="h1 title text-normal doctor-name-detail">Dr. Hendry Doe</h2>
-                        <span class="decor_ui"></span>
-                        <p class="text-muted">Orthopedist</p>
+                        <nav class="d-flex justify-content-center">
+                            <div class="nav nav-tabs bg-nav-community d-flex justify-content-center border-0" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link nav-community active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                    role="tab" aria-controls="nav-home" aria-selected="true">Artikel</a>
+                                <a class="nav-item nav-link nav-community" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                    role="tab" aria-controls="nav-profile" aria-selected="false">Foto & Video</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab">
+                                <div class="row">
+                                    <?php 
+                                        for($i = 0; $i < 6; $i++){
+                                    ?>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="card pt-5" style="border: 0;">
+                                            <img src="<?php echo ROOT_URL?>/assets/img/service/1.png?<?php echo rand()?>"
+                                                class="card-img-top rounded-img img-recent" alt="...">
+                                            <div class="card-body card-recent-article">
+                                                <div class="row">
+                                                    <div class="col-md-10">
+                                                        <h4 class="card-text text-normal text-bold mb-1">Unit Gawat
+                                                            Darurat
+                                                            (UGD)</h4>
+                                                    </div>
+                                                    <div class="col-md-2 align-self-center">
+                                                        <a href="" class="arrow-read text-normal">
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php
+                                        }
+                                    ?>
+                                </div>
 
-                        <p class="doctor-description text-normal">Ma quande lingues coalesce, li grammatica del
-                            resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua
-                            franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam
-                            simplic
-                            quam Occidental in fact, it va esser Occidental. Lor separat existentie es un myth. Por
-                            scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen.”
-                        </p>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
+                                B</div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
-
         <div class="breadcrumb-area bg-img-transparent">
             <div class="area-bg">
                 <div class="container">
@@ -179,7 +139,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
 
         <section class="section-padding fix">
             <div class="container">
-                <div class="row p-5">
+                <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <h1 class="h1 title text-normal">Our Contact</h1>
@@ -191,8 +151,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="contact-message">
-                            <form id="contact-form" action="<?php echo ROOT_URL?>/assets/php/mail.php" method="post"
-                                class="contact-form">
+                            <form id="contact-form" action="" method="post" class="contact-form">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <div class="form-group">
@@ -235,7 +194,6 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
             </div>
         </section>
 
-
     </main>
 
     <!-- Scroll to top start -->
@@ -244,11 +202,12 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     </div>
     <!-- Scroll to Top End -->
 
+    <!-- footer section start -->
     <?php
         require_once 'include/footer.php';
     ?>
 
-    <!-- JS ====================== -->
+    <!-- ====================== JS ====================== -->
     <!-- Custom -->
     <script src="<?php echo ROOT_URL?>/assets/js/custom.js?<?php echo rand()?> "></script>
     <!-- Modernizer JS -->
@@ -267,8 +226,6 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     <script src="<?php echo ROOT_URL?>/assets/js/plugins/odometer.min.js?<?php echo rand()?> "></script>
     <!-- appear js -->
     <script src="<?php echo ROOT_URL?>/assets/js/plugins/appear.min.js?<?php echo rand()?> "></script>
-    <!-- mailchimp active js -->
-    <script src="<?php echo ROOT_URL?>/assets/js/plugins/ajaxchimp.js?<?php echo rand()?> "></script>
     <!-- waypoint js  -->
     <script src="<?php echo ROOT_URL?>/assets/js/plugins/waypoints.min.js?<?php echo rand()?> "></script>
     <!-- google map api -->
@@ -276,9 +233,10 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     <!-- google map active js -->
     <script src="<?php echo ROOT_URL?>/assets/js/plugins/google-map.js?<?php echo rand()?> "></script>
     <!-- Main JS -->
-    <script src="<?php echo ROOT_URL?>/assets/js/main.js?<?php echo rand()?> "></script>
+    <script src="<?php echo ROOT_URL?>/assets/js/main.js?<?php echo rand()?>"></script>
     <!-- DatePicker -->
     <script src="<?php echo ROOT_URL?>/assets/js/plugins/bootstrap-datepicker.js?<?php echo rand()?> "></script>
+
 </body>
 
 </html>

@@ -5,7 +5,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-single-widget mt-40">
                         <a href="<?php echo ROOT_URL?>">
-                            <img src="assets/img/beranda/logo.png" alt="">
+                            <img src="<?php echo ROOT_URL?>/assets/img/logo/logo.png?<?php echo rand()?>" alt="">
                         </a>
                     </div>
                 </div>
@@ -17,7 +17,7 @@
                                     <input name="contact_subject" class="news-form" id="datepicker"
                                         placeholder="Your Email" type="text"
                                         style="width: 50%; border-radius: 5px; padding: 8px 10px;">
-                                    <button class="btn btn-red" id="mc-submit">Subscribe</button>
+                                    <button class="btn btn-blue" id="mc-submit">Subscribe</button>
 
                                 </div>
                             </form>

@@ -1,7 +1,7 @@
 <header class="header-area">
     <div class="main-header d-none d-lg-block">
         <!-- header top start -->
-        <div class="header-top" style="background-color:#F64747">
+        <div class="header-top" style="background-color:#0291CA">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-sm-4">
@@ -45,7 +45,7 @@
                         <!-- logo area start -->
                         <div class="brand-logo">
                             <a href="<?php echo ROOT_URL?>">
-                                <img src="assets/img/beranda/logo.png?<?php echo rand()?>" alt="brand logo">
+                            <img src="<?php echo ROOT_URL?>/assets/img/logo/logo.png?<?php echo rand()?>" alt="Brand Logo">
                             </a>
                         </div>
                         <!-- logo area end -->
@@ -54,12 +54,12 @@
                         <div class="main-menu-inner">
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="active"><a href="<?php echo ROOT_URL?>">Home</a></li>
-                                    <li><a href="<?php echo ROOT_URL?>/doctor-list.php">Doctor</a></li>
-                                    <li><a href="<?php echo ROOT_URL?>/services.php">Services</a></li>
-                                    <li><a href="<?php echo ROOT_URL?>/tech-list.php">Feature</a></li>
+                                    <li class="active"><a href="<?php echo ROOT_URL?>">Beranda</a></li>
+                                    <li><a href="<?php echo ROOT_URL?>/doctor-list.php">Rekomendasi Dokter</a></li>
+                                    <li><a href="<?php echo ROOT_URL?>/tech-list.php">Teknologi Kesehatan</a></li>
+                                    <li><a href="<?php echo ROOT_URL?>/community.php">Komunitas</a></li>
                                     <li><a href="<?php echo ROOT_URL?>/article.php">Blog</a></li>
-                                    <li><a href="<?php echo ROOT_URL?>/contact.php"> Contact </a></li>
+                                    <li><a href="<?php echo ROOT_URL?>/contact.php">Kontak</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -80,7 +80,7 @@
                     <div class="mobile-main-header">
                         <div class="mobile-logo">
                             <a href="<?php echo ROOT_URL?>">
-                                <img src="assets/img/beranda/logo.png?<?php echo rand()?>" alt="Brand Logo">
+                                <img src="<?php echo ROOT_URL?>/assets/img/logo/logo.png?<?php echo rand()?>" alt="Brand Logo">
                             </a>
                         </div>
                         <div class="mobile-menu-toggler">
@@ -123,12 +123,12 @@
                     <!-- mobile menu navigation start -->
                     <nav>
                         <ul class="mobile-menu">
-                            <li class="active"><a href="<?php echo ROOT_URL?>">Home</a></li>
-                            <li><a href="<?php echo ROOT_URL?>/doctor-list.php">Doctor</a></li>
-                            <li><a href="<?php echo ROOT_URL?>/services.php">Services</a></li>
-                            <li><a href="<?php echo ROOT_URL?>/tech-list.php">Feature</a></li>
+                            <li class="active"><a href="<?php echo ROOT_URL?>">Beranda</a></li>
+                            <li><a href="<?php echo ROOT_URL?>/doctor-list.php">Rekomendasi Dokter</a></li>
+                            <li><a href="<?php echo ROOT_URL?>/tech-list.php">Teknologi Kesehatan</a></li>
+                            <li><a href="<?php echo ROOT_URL?>/community.php">Komunitas</a></li>
                             <li><a href="<?php echo ROOT_URL?>/article.php">Blog</a></li>
-                            <li><a href="<?php echo ROOT_URL?>/contact.php"> Contact </a></li>
+                            <li><a href="<?php echo ROOT_URL?>/contact.php">Kontak</a></li>
                         </ul>
                     </nav>
                     <!-- mobile menu navigation end -->

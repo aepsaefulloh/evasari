@@ -20,8 +20,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     <!-- CSS
 	============================================ -->
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,400i,500,600,700,800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo ROOT_URL?>/assets/css/vendor/bootstrap.min.css?<?php echo rand()?>">
     <!-- Font-awesome CSS -->
@@ -52,8 +52,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     <div class="col-12">
                         <div class="breadcrumb-wrap">
                             <nav aria-label="breadcrumb">
-                                <h2 class="breadcrumb-title">Meet Our Doctor</h2>
-                                <p class="subtitle-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
+                                <h2 class="breadcrumb-title text-normal">Meet Our Doctor</h2>
+                                <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
                                     posuere nulla sit
                                     ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.
                                 </p>

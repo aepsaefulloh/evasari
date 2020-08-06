@@ -20,8 +20,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     <!-- CSS
 	============================================ -->
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,400i,500,600,700,800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo ROOT_URL?>/assets/css/vendor/bootstrap.min.css?<?php echo rand()?>">
     <!-- Font-awesome CSS -->
@@ -52,8 +51,9 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     <div class="col-12">
                         <div class="breadcrumb-wrap">
                             <nav aria-label="breadcrumb">
-                                <h2 class="breadcrumb-title">Our Technology</h2>
-                                <p class="subtitle-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                <h2 class="breadcrumb-title text-normal">Teknologi Kesehatan</h2>
+                                <p class="subtitle-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit.
                                     Tortor
                                     posuere nulla sit
                                     ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.
@@ -67,6 +67,9 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
         <section class="section-padding pt-0">
             <div class="container">
                 <div class="row">
+                    <?php
+                        for($i=0; $i < 8; $i++){
+                    ?>
                     <div class="col-md-6 col-xs-6 mt-5">
                         <div class="card" style="border: 0;">
                             <img src="<?php echo ROOT_URL?>/assets/img/article/article.jpg"
@@ -74,13 +77,14 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                             <div class="card-body card-recent-article">
                                 <div class="row">
                                     <div class="col-md-10">
-                                        <h4 class="card-text text-green text-bold mb-1">Inseminasi</h4>
-                                        <p>Tempus convallis egestas blandit quis id enim. Aliquam consequat etiam
+                                        <h4 class="card-text text-normal text-bold mb-1">Inseminasi</h4>
+                                        <p class="text-normal">Tempus convallis egestas blandit quis id enim. Aliquam
+                                            consequat etiam
                                             viverra odio. Magnis consectetur ut luctus risus dolor turpis. Metus justo.
                                         </p>
                                     </div>
                                     <div class="col-md-2 align-self-center">
-                                        <a href="" class="arrow-read">
+                                        <a href="" class="arrow-read text-normal ">
                                             <i class="fa fa-arrow-right"></i>
                                         </a>
                                     </div>
@@ -88,69 +92,9 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xs-6 mt-5">
-                        <div class="card" style="border: 0;">
-                            <img src="<?php echo ROOT_URL?>/assets/img/article/article.jpg"
-                                class="card-img-top rounded-img img-recent" alt="...">
-                            <div class="card-body card-recent-article">
-                                <div class="row">
-                                    <div class="col-md-10">
-                                        <h4 class="card-text text-green text-bold mb-1">Inseminasi</h4>
-                                        <p>Tempus convallis egestas blandit quis id enim. Aliquam consequat etiam
-                                            viverra odio. Magnis consectetur ut luctus risus dolor turpis. Metus justo.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-2 align-self-center">
-                                        <a href="" class="arrow-read">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xs-6 mt-5">
-                        <div class="card" style="border: 0;">
-                            <img src="<?php echo ROOT_URL?>/assets/img/article/article.jpg"
-                                class="card-img-top rounded-img img-recent" alt="...">
-                            <div class="card-body card-recent-article">
-                                <div class="row">
-                                    <div class="col-md-10">
-                                        <h4 class="card-text text-green text-bold mb-1">Inseminasi</h4>
-                                        <p>Tempus convallis egestas blandit quis id enim. Aliquam consequat etiam
-                                            viverra odio. Magnis consectetur ut luctus risus dolor turpis. Metus justo.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-2 align-self-center">
-                                        <a href="" class="arrow-read">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xs-6 mt-5">
-                        <div class="card" style="border: 0;">
-                            <img src="<?php echo ROOT_URL?>/assets/img/article/article.jpg"
-                                class="card-img-top rounded-img img-recent" alt="...">
-                            <div class="card-body card-recent-article">
-                                <div class="row">
-                                    <div class="col-md-10">
-                                        <h4 class="card-text text-green text-bold mb-1">Inseminasi</h4>
-                                        <p>Tempus convallis egestas blandit quis id enim. Aliquam consequat etiam
-                                            viverra odio. Magnis consectetur ut luctus risus dolor turpis. Metus justo.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-2 align-self-center">
-                                        <a href="" class="arrow-read">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        }
+                ?>
                 </div>
             </div>
         </section>

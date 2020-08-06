@@ -1,17 +1,14 @@
 @media(max-width:768px) {
     .subtitle-text {
-        padding: 0;
+        padding: 0 !important;
     }
-
     .card-body-doctor {
         border-top-left-radius: 32px;
         border-bottom-left-radius: 32px;
     }
-
     .article-headline {
         margin-top: 1em;
     }
-
     .select-article select {
         width: 100%;
         border-radius: 24px;
@@ -20,7 +17,6 @@
         font-weight: bold;
         background-color: #F3F7F8 !important;
     }
-
     .btn-article {
         position: relative;
         top: 0;
@@ -28,15 +24,15 @@
         right: 100%;
         z-index: 100;
     }
-
     .img-detail-article {
         margin-top: 0;
     }
-
     .breadcrumb-page {
         padding-top: 0;
     }
-
+    .bg-nav-community {
+        width: 100%;
+    }
 }
 
 @media(max-width:991px) {}

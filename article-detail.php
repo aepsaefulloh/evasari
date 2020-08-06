@@ -20,8 +20,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     <!-- CSS
 	============================================ -->
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,400i,500,600,700,800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo ROOT_URL?>/assets/css/vendor/bootstrap.min.css?<?php echo rand()?>">
     <!-- Font-awesome CSS -->
@@ -51,12 +51,12 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                 <div class="row">
                     <div class="col-md-12">
                         <div class="img-detail-article">
-                            <img src="/<?php echo ROOT_URL?>/assets/img/article/article.jpg"
+                            <img src="<?php echo ROOT_URL?>/assets/img/article/article.jpg?<?php echo rand()?>"
                                 class="img-fluid rounded-img" alt="">
                         </div>
                         <div class="text-detail-article">
-                            <h1 class="h1 title text-green pt-5 pb-lg-3">Tips Sehat di New Normal</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla mi senectus
+                            <h1 class="h1 title text-normal pt-5 pb-lg-3">Tips Sehat di New Normal</h1>
+                            <p class="text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla mi senectus
                                 ultricies neque, nibh. Augue orci commodo nisl rhoncus diam. Cursus nibh vel, eget
                                 accumsan. Enim, eu felis pellentesque aliquet lorem egestas.
                                 Ipsum eu cras donec molestie. Hac ipsum aliquam egestas odio sed odio egestas sed
@@ -83,21 +83,21 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
             <div class="container">
                 <div class="row pb-5">
                     <div class="col-md-12">
-                        <h1 class="h1 title text-green text-center">Rekomendasi untuk kamu</h1>
+                        <h1 class="h1 title text-normal text-center">Rekomendasi untuk kamu</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card" style="border: 0;">
-                            <img src="/<?php echo ROOT_URL?>/assets/img/article/article.jpg"
+                            <img src="<?php echo ROOT_URL?>/assets/img/article/article.jpg?<?php echo rand()?>"
                                 class="card-img-top rounded-img img-recent" alt="...">
                             <div class="card-body card-recent-article">
                                 <div class="row">
                                     <div class="col-md-10">
-                                        <p class="card-text text-green text-bold">Olahraga aman saat pandemi.</p>
+                                        <p class="card-text text-normal text-bold">Olahraga aman saat pandemi.</p>
                                     </div>
                                     <div class="col-md-2">
-                                        <a href="" class="arrow-read">
+                                        <a href="" class="arrow-read text-normal">
                                             <i class="fa fa-arrow-right"></i>
                                         </a>
                                     </div>
@@ -107,15 +107,15 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     </div>
                     <div class="col-md-6">
                         <div class="card" style="border: 0;">
-                            <img src="/<?php echo ROOT_URL?>/assets/img/article/article.jpg"
+                            <img src="<?php echo ROOT_URL?>/assets/img/article/article.jpg?<?php echo rand()?>"
                                 class="card-img-top rounded-img img-recent" alt="...">
                             <div class="card-body card-recent-article">
                                 <div class="row">
                                     <div class="col-md-10">
-                                        <p class="card-text text-green text-bold">Olahraga aman saat pandemi.</p>
+                                        <p class="card-text text-normal text-bold">Olahraga aman saat pandemi.</p>
                                     </div>
                                     <div class="col-md-2">
-                                        <a href="" class="arrow-read">
+                                        <a href="" class="arrow-read text-normal">
                                             <i class="fa fa-arrow-right"></i>
                                         </a>
                                     </div>

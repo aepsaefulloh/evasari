@@ -20,8 +20,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     <!-- CSS
 	============================================ -->
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,400i,500,600,700,800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo ROOT_URL?>/assets/css/vendor/bootstrap.min.css?<?php echo rand()?>">
     <!-- Font-awesome CSS -->
@@ -53,8 +52,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                         <div class="row align-items-center">
                             <div class="col-xl-6 col-sm-6">
                                 <div class="hero-slider-content">
-                                    <h1 class="slide-title hero-title">Mommy & Kiddos</h1>
-                                    <p class="slide-title hero-subtitle">Lorem ipsum dolor sit amet, consectetur
+                                    <h1 class="slide-title hero-title text-normal">Mommy & Kiddos</h1>
+                                    <p class="text-normal">Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit. Felis viverra penatibus mollis sit. Amet ut consectetur blandit
                                         neque, in fusce in. Nunc accumsan ipsum nibh suspendisse magnis volutpat purus
                                         quam augue. Tempus
@@ -106,7 +105,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 <img src="<?php echo ROOT_URL?>/assets/img/beranda/icons/1.png" alt="icon">
                             </div>
                             <h3 class="service-policy-title">Dokter Berkualitas</h3>
-                            <p class="service-policy-desc">Ideas es to obtain pain of itself, because it is pain, but
+                            <p class="text-normal">Ideas es to obtain pain of itself, because it is pain, but
                                 because occasionallyght ocean</p>
                         </div>
                     </div>
@@ -116,7 +115,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 <img src="<?php echo ROOT_URL?>/assets/img/beranda/icons/2.png" alt="icon">
                             </div>
                             <h3 class="service-policy-title">Pelayanan Terbaik</h3>
-                            <p class="service-policy-desc">Ideas es to obtain pain of itself, because it is pain, but
+                            <p class="text-normal">Ideas es to obtain pain of itself, because it is pain, but
                                 because occasionallyght ocean</p>
                         </div>
                     </div>
@@ -126,7 +125,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 <img src="<?php echo ROOT_URL?>/assets/img/beranda/icons/3.png" alt="icon">
                             </div>
                             <h3 class="service-policy-title">Selalu Siaga</h3>
-                            <p class="service-policy-desc">Ideas es to obtain pain of itself, because it is pain, but
+                            <p class="text-normal">Ideas es to obtain pain of itself, because it is pain, but
                                 because occasionallyght ocean</p>
                         </div>
                     </div>
@@ -148,8 +147,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     </div>
                     <div class="col-lg-5 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="about-inner">
-                            <h1 class="title-text">Tips Tetap Sehat di New Normal</h1>
-                            <p>Everything has beauty, but not everyone sees it. think wrongly, if you please, but in all
+                            <h1 class="title-text text-normal">Tips Tetap Sehat di New Normal</h1>
+                            <p class="text-normal mt-3">Everything has beauty, but not everyone sees it. think wrongly, if you please, but in all
                                 cases think for yourself. everytime you smile at someone</p>
                             <a href="#" class="btn btn-hero">Learn More</a>
                         </div>
@@ -174,8 +173,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     <div class="col-lg-5 order-sm-1 order-lg-1 wow fadeInRight" data-wow-duration="1s"
                         data-wow-delay=".5s">
                         <div class="about-inner">
-                            <h1 class="title-text">Olahraga aman disaat pandemi</h1>
-                            <p>Everything has beauty, but not everyone sees it. think wrongly, if you please, but in all
+                            <h1 class="title-text text-normal">Olahraga aman disaat pandemi</h1>
+                            <p class="text-normal mt-3">Everything has beauty, but not everyone sees it. think wrongly, if you please, but in all
                                 cases think for yourself. everytime you smile at someone</p>
                             <a href="#" class="btn btn-hero">Learn More</a>
                         </div>
@@ -189,8 +188,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center">
-                            <h1 class="h1 title text-green">Meet Our Doctors</h1>
-                            <p class="subtitle-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor posuere nulla sit
+                            <h1 class="h1 title text-normal">Meet Our Doctors</h1>
+                            <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor posuere nulla sit
                                 ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.</p>
                         </div>
                     </div>
@@ -204,10 +203,10 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 </div>
                                 <div class="col-md-7 align-self-center">
                                     <div class="card-body card-body-doctor p-5">
-                                        <h5 class="card-title text-green">Dr. Hendry Doe</h5>
-                                        <p class="card-text"><small class="text-muted text-green">Orthopedist</small>
+                                        <h5 class="card-title text-normal">Dr. Hendry Doe</h5>
+                                        <p class="card-text"><small class="text-muted text-normal">Orthopedist</small>
                                         </p>
-                                        <p class="card-text">When you come to the edge of all the light you know, and
+                                        <p class="card-text text-normal">When you come to the edge of all the light you know, and
                                             are about to step off into the darkness of the unknown, faith is knowing one
                                             of two things will happen: there will be something solid to stand on, or you
                                             will be taught how to fly.</p>
@@ -221,10 +220,10 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                             <div class="row no-gutters">
                                 <div class="col-md-7 align-self-center">
                                     <div class="card-body card-body-doctor p-5">
-                                        <h5 class="card-title text-green">Dr. Marry Goodshepherd</h5>
-                                        <p class="card-text"><small class="text-muted text-green">Doctor of Dental
+                                        <h5 class="card-title text-normal">Dr. Marry Goodshepherd</h5>
+                                        <p class="card-text"><small class="text-muted text-normal">Doctor of Dental
                                                 Surgery (DDS)</small></p>
-                                        <p class="card-text">When you come to the edge of all the light you know, and
+                                        <p class="card-text text-normal">When you come to the edge of all the light you know, and
                                             are about to step off into the darkness of the unknown, faith is knowing one
                                             of two things will happen: there will be something solid to stand on, or you
                                             will be taught how to fly.</p>
@@ -247,10 +246,10 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 </div>
                                 <div class="col-md-7 align-self-center">
                                     <div class="card-body card-body-doctor p-5">
-                                        <h5 class="card-title text-green">Dr. Shireen White</h5>
-                                        <p class="card-text"><small class="text-muted text-green">Pulmonologist</small>
+                                        <h5 class="card-title text-normal">Dr. Shireen White</h5>
+                                        <p class="card-text"><small class="text-muted text-normal">Pulmonologist</small>
                                         </p>
-                                        <p class="card-text">When you come to the edge of all the light you know, and
+                                        <p class="card-text text-normal">When you come to the edge of all the light you know, and
                                             are about to step off into the darkness of the unknown, faith is knowing one
                                             of two things will happen: there will be something solid to stand on, or you
                                             will be taught how to fly.</p>
@@ -261,7 +260,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     </div>
                     <div class="col-md-12">
                         <div class="pt-5 text-center">
-                            <a class="btn btn-red" href="">See All</a>
+                            <a class="btn btn-blue" href="">See All</a>
                         </div>
                     </div>
                 </div>
@@ -291,8 +290,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center">
-                            <h1 class="h1 title text-green">Our Contact</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor posuere nulla sit
+                            <h1 class="h1 title text-normal">Our Contact</h1>
+                            <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor posuere nulla sit
                                 ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.</p>
                         </div>
                     </div>
@@ -332,7 +331,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                             </div>
                                         </div>
                                         <div class="contact-btn d-flex justify-content-center">
-                                            <button class="btn btn-red" type="submit">Make Appointment</button>
+                                            <button class="btn btn-blue" type="submit">Make Appointment</button>
                                         </div>
                                     </div>
                                 </div>

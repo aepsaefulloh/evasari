@@ -20,8 +20,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
     <!-- CSS
 	============================================ -->
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,400i,500,600,700,800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo ROOT_URL?>/assets/css/vendor/bootstrap.min.css?<?php echo rand()?>">
     <!-- Font-awesome CSS -->
@@ -57,7 +57,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     <div class="col-lg-6 order-2 order-lg-1">
                         <div class="contact-message">
                             <h1 class="h1 title contact-title">We Care We Help</h1>
-                            <form id="contact-form" action="<?php echo ROOT_URL?>/assets/php/mail.php" method="post"
+                            <form id="contact-form" action="" method="post"
                                 class="contact-form">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
@@ -91,7 +91,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     <div class="col-lg-6 order-1 order-lg-2">
                         <div class="contact-information">
                             <h2 class="h1 title contact-title">Contact Us</h2>
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+                            <p class="text-normal">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
                                 Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit
                                 litterarum formas human.
                             </p>
