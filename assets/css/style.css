@@ -81,7 +81,6 @@ h1,
 }
 
 @media only screen and (max-width: 767.98px) {
-
     h1,
     .h1 {
         font-size: 28px;
@@ -89,7 +88,6 @@ h1,
 }
 
 @media only screen and (max-width: 479.98px) {
-
     h1,
     .h1 {
         font-size: 26px;
@@ -102,7 +100,6 @@ h2,
 }
 
 @media only screen and (max-width: 767.98px) {
-
     h2,
     .h2 {
         font-size: 26px;
@@ -110,7 +107,6 @@ h2,
 }
 
 @media only screen and (max-width: 479.98px) {
-
     h2,
     .h2 {
         font-size: 24px;
@@ -123,7 +119,6 @@ h3,
 }
 
 @media only screen and (max-width: 767.98px) {
-
     h3,
     .h3 {
         font-size: 20px;
@@ -1539,7 +1534,6 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
-
     .testimonial-carousel-active.slick-arrow-style--testimonial_2 .slick-list,
     .hero-slider-active.slick-arrow-style--testimonial_2 .slick-list {
         margin: -30px -15px;
@@ -1618,7 +1612,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(0, 40%, 0);
         transform: translate3d(0, 40%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1632,7 +1625,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(0, 40%, 0);
         transform: translate3d(0, 40%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1651,7 +1643,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(-40%, 0, 0);
         transform: translate3d(-40%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1665,7 +1656,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(-40%, 0, 0);
         transform: translate3d(-40%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1684,7 +1674,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(40%, 0, 0);
         transform: translate3d(40%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1698,7 +1687,6 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(40%, 0, 0);
         transform: translate3d(40%, 0, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1716,12 +1704,10 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     50% {
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -1733,12 +1719,10 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     50% {
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -1848,23 +1832,6 @@ only screen and (max-width: 767.98px) {
     font-size: 18px;
     font-weight: 500;
     line-height: 1;
-}
-
-.image1,
-.image2,
-.image3 {
-    position: relative;
-}
-
-.pattern-dot1 {
-    background-image: url(/assets/img/beranda/pattern/dotted.png);
-    position: absolute;
-    content: "";
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    top: 120%;
-    left: 20%;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
@@ -2137,7 +2104,6 @@ only screen and (max-width: 767.98px) {
 @media only screen and (min-width: 992px) and (max-width: 1199.98px),
 only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
-
     .service-list-left .service-item:nth-child(1),
     .service-list-left .service-item:nth-child(3) {
         margin-left: 0;
@@ -2148,7 +2114,6 @@ only screen and (max-width: 767.98px) {
     .service-list-left .service-item {
         margin-right: 30px;
     }
-
     .service-list-left .service-item:last-child {
         margin-right: 0;
     }
@@ -2178,7 +2143,6 @@ only screen and (max-width: 767.98px) {
     .service-list-right .service-item {
         margin-right: 30px;
     }
-
     .service-list-right .service-item:last-child {
         margin-right: 0;
     }
@@ -2598,7 +2562,6 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
-
     .team-member--hover-effect:hover:before,
     .team-member--hover-effect:hover:after,
     .team-member--hover-effect.active:before,
@@ -2620,7 +2583,6 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
-
     .team-member--hover-effect:hover:after,
     .team-member--hover-effect.active:after,
     .team-member--hover-effect.team-open:after {
@@ -2642,7 +2604,6 @@ only screen and (max-width: 767.98px) {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-
     .team-member--hover-effect:hover .team-member-info,
     .team-member--hover-effect.active .team-member-info,
     .team-member--hover-effect.team-open .team-member-info {
@@ -3856,7 +3817,7 @@ only screen and (max-width: 767.98px) {
 
 .bg-img-transparent {
     position: relative;
-    background-image: url(/assets/img/beranda/emergency.jpg);
+    background-image: url(../img/beranda/emergency.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -4117,4 +4078,70 @@ p {
 .doctor-description {
     font-size: 16px;
     line-height: 28px;
+}
+
+.image1,
+.image2,
+.image3 {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Pattern */
+
+.hero-rectangle1-lg {
+    background-image: url(../img/pattern/Rectangle-lg.png);
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+    top: -20%;
+    left: 50%;
+}
+
+.hero-rectangle1-sm {
+    background-image: url(../img/pattern/Rectangle-sm.png);
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0%;
+}
+
+.hero-rectangle2-sm {
+    background-image: url(../img/pattern/Rectangle-sm.png);
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: -50%;
+    left: 0%;
+}
+
+.hero-rectangle-xm {
+    background-image: url(../img/pattern/Rectangle-xm.png);
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0%;
+}
+
+.hero-dot1 {
+    background-image: url(../img/pattern/dotted.png);
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 130%;
+    left: 60%;
+    z-index: 1;
 }

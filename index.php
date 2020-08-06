@@ -45,10 +45,11 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
         require_once 'include/header.php';
     ?>
     <main>
-        <section class="hero-slider hero-transparent-bg gray-bg fix">
+        <section class="hero-slider hero-transparent-bg fix">
             <div class="hero-single-slide">
                 <div class="hero-slider-item">
                     <div class="container">
+
                         <div class="row align-items-center">
                             <div class="col-xl-6 col-sm-6">
                                 <div class="hero-slider-content">
@@ -63,16 +64,23 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                         nunc.
                                     </p>
                                 </div>
+                                <span class="hero-rectangle1-sm"></span>
+
                             </div>
-                            <div class="col-xl-3 col-sm-3">
+                            <div class="col-xl-3 col-sm-3 align-items-center">
+                            <span class="hero-rectangle2-sm"></span>
+
                                 <div class="image1 p-2">
                                     <img src="<?php echo ROOT_URL?>/assets/img/beranda/hero1.jpg"
-                                        class="img-fluid rounded " alt="slider thumb">
-                                    <span class="pattern-dot1"></span>
-
+                                        class="img-fluid rounded hero1" alt="slider thumb">
                                 </div>
+                                <span class="hero-dot1"></span>
+                                <span class="hero-rectangle-xm"></span>
+                                <span class="hero-rectangle1-lg"></span>
+
+
                             </div>
-                            <div class="col-xl-3 col-sm-3">
+                            <div class="col-xl-3 col-sm-3 align-items-center">
                                 <div class="image2 p-2">
                                     <img src="<?php echo ROOT_URL?>/assets/img/beranda/hero2.jpg"
                                         class="img-fluid rounded" alt="slider thumb">
