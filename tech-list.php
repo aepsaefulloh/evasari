@@ -52,7 +52,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                         <div class="breadcrumb-wrap">
                             <nav aria-label="breadcrumb">
                                 <h2 class="breadcrumb-title text-normal">Teknologi Kesehatan</h2>
-                                <p class="subtitle-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                <p class="subtitle-text text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing
                                     elit.
                                     Tortor
                                     posuere nulla sit

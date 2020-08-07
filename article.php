@@ -45,73 +45,116 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
         require_once 'include/header.php';
     ?>
     <main>
-        <section class="section-padding pt-5">
+        <section class="section-padding pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="text-center">
-                            <h1 class="h1 title article-headline text-normal">Article</h1>
-                            <p class="mt-3 text-normal subtitle-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            <h1 class="h1 title article-headline text-normal">Artikel</h1>
+                            <p class="mt-3 text-grey subtitle-text">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit. Tortor
                                 posuere nulla sit ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque
                                 leo bibendum. </p>
                         </div>
-                        <div class="select-article mt-3 d-flex justify-content-center">
-                            <select class="form-control">
-                                <option>Healthy</option>
-                                <option>Kids</option>
-                                <option>Food</option>
-                            </select>
-                        </div>
+                        <nav class="d-flex justify-content-center mt-5">
+                            <div class="nav nav-tabs bg-nav-community d-flex justify-content-center border-0"
+                                id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link nav-community active" id="nav-home-tab" data-toggle="tab"
+                                    href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Tips
+                                    Kesehatan</a>
+                                <a class="nav-item nav-link nav-community" id="nav-profile-tab" data-toggle="tab"
+                                    href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Kesehatan Umum</a>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section-padding pt-5">
+        <section class="section-padding pt-0">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <?php
-                            for($i=0; $i < 3; $i++){
-                        ?>
-                        <div class="card border-0 pt-5 pb-5">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/beranda/hero1.jpg"
-                                        class="card-img img-fluid rounded-img" alt="...">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab">
+                                <div class="row">
+                                    <?php 
+                                        for($i = 0; $i < 6; $i++){
+                                    ?>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="card pt-5" style="border: 0;">
+                                            <img src="<?php echo ROOT_URL?>/assets/img/service/1.png?<?php echo rand()?>"
+                                                class="card-img-top rounded-img img-recent" alt="...">
+                                            <div class="card-body card-recent-article">
+                                                <h5 class="meta-title card-text text-normal text-center">Tips Tetap
+                                                    Sehat di New Normal</h5>
+                                                <p class="meta-dscription text-normal mt-2">
+                                                    Tempus convallis egestas blandit quis id enim. Aliquam consequat
+                                                    etiam viverra.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php
+                                        }
+                                    ?>
                                 </div>
-                                <div class="col-md-8 align-self-center">
-                                    <div class="card-body card-body-doctor p-5">
-                                        <h5 class="card-title text-normal">Tips Tetap Sehat di New Normal</h5>
-                                        </p>
-                                        <p class="card-text text-normal">Tempus convallis egestas blandit quis id enim.
-                                            Aliquam
-                                            consequat etiam viverra odio. Magnis consectetur ut luctus risus dolor
-                                            turpis. Metus justo.</p>
-                                        <a href="" class="text-normal float-right btn-article">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </a>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="paginatoin-area text-center mt-40">
+                                            <ul class="pagination-box">
+                                                <li><a class="previous" href="#"><i class="fa fa-angle-left"></i></a>
+                                                </li>
+                                                <li class="active"><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <li><a class="next" href="#"><i class="fa fa-angle-right"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-
                             </div>
-                        </div>
-                        <?php
-                            }
-                        ?>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="paginatoin-area text-center mt-40">
-                            <ul class="pagination-box">
-                                <li><a class="previous" href="#"><i class="fa fa-angle-left"></i></a></li>
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a class="next" href="#"><i class="fa fa-angle-right"></i></a></li>
-                            </ul>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
+                                <div class="row">
+                                    <?php 
+                                        for($i = 0; $i < 6; $i++){
+                                    ?>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="card pt-5" style="border: 0;">
+                                            <img src="<?php echo ROOT_URL?>/assets/img/service/1.png?<?php echo rand()?>"
+                                                class="card-img-top rounded-img img-recent" alt="...">
+                                            <div class="card-body card-recent-article">
+                                                <h5 class="meta-title card-text text-normal text-center">Tips Tetap
+                                                    Sehat di New Normal</h5>
+                                                <p class="meta-dscription text-normal mt-2">
+                                                    Tempus convallis egestas blandit quis id enim. Aliquam consequat
+                                                    etiam viverra.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php
+                                        }
+                                    ?>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="paginatoin-area text-center mt-40">
+                                            <ul class="pagination-box">
+                                                <li><a class="previous" href="#"><i class="fa fa-angle-left"></i></a>
+                                                </li>
+                                                <li class="active"><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <li><a class="next" href="#"><i class="fa fa-angle-right"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -81,6 +81,7 @@ h1,
 }
 
 @media only screen and (max-width: 767.98px) {
+
     h1,
     .h1 {
         font-size: 28px;
@@ -88,6 +89,7 @@ h1,
 }
 
 @media only screen and (max-width: 479.98px) {
+
     h1,
     .h1 {
         font-size: 26px;
@@ -100,6 +102,7 @@ h2,
 }
 
 @media only screen and (max-width: 767.98px) {
+
     h2,
     .h2 {
         font-size: 26px;
@@ -107,6 +110,7 @@ h2,
 }
 
 @media only screen and (max-width: 479.98px) {
+
     h2,
     .h2 {
         font-size: 24px;
@@ -119,6 +123,7 @@ h3,
 }
 
 @media only screen and (max-width: 767.98px) {
+
     h3,
     .h3 {
         font-size: 20px;
@@ -508,6 +513,14 @@ only screen and (max-width: 767.98px) {
     margin-left: 26px;
 }
 
+.footer-social-link a {
+    color: #fff;
+    margin-right: 10px;
+    background: #666666;
+    padding: 0.3em 0.5em;
+    border-radius: 0;
+}
+
 .header-social-link a:hover {
     color: #151515;
 }
@@ -734,7 +747,7 @@ only screen and (max-width: 767.98px) {
     position: fixed;
     width: 100%;
     z-index: 9;
-    background-color: #fff;
+    background-color: #015B7F;
     -webkit-box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
     -webkit-animation: 900ms cubic-bezier(0.2, 1, 0.22, 1) 0s normal none 1 running fadeInDown;
@@ -766,6 +779,7 @@ only screen and (max-width: 767.98px) {
 
 .mobile-header {
     padding: 15px 0;
+    background-color: #015B7F;
 }
 
 .mobile-logo {
@@ -1534,6 +1548,7 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
+
     .testimonial-carousel-active.slick-arrow-style--testimonial_2 .slick-list,
     .hero-slider-active.slick-arrow-style--testimonial_2 .slick-list {
         margin: -30px -15px;
@@ -1612,6 +1627,7 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(0, 40%, 0);
         transform: translate3d(0, 40%, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1625,6 +1641,7 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(0, 40%, 0);
         transform: translate3d(0, 40%, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1643,6 +1660,7 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(-40%, 0, 0);
         transform: translate3d(-40%, 0, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1656,6 +1674,7 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(-40%, 0, 0);
         transform: translate3d(-40%, 0, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1674,6 +1693,7 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(40%, 0, 0);
         transform: translate3d(40%, 0, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1687,6 +1707,7 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translate3d(40%, 0, 0);
         transform: translate3d(40%, 0, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1704,10 +1725,12 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
+
     50% {
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
+
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -1719,10 +1742,12 @@ only screen and (max-width: 767.98px) {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
+
     50% {
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
+
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -2104,6 +2129,7 @@ only screen and (max-width: 767.98px) {
 @media only screen and (min-width: 992px) and (max-width: 1199.98px),
 only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
+
     .service-list-left .service-item:nth-child(1),
     .service-list-left .service-item:nth-child(3) {
         margin-left: 0;
@@ -2114,6 +2140,7 @@ only screen and (max-width: 767.98px) {
     .service-list-left .service-item {
         margin-right: 30px;
     }
+
     .service-list-left .service-item:last-child {
         margin-right: 0;
     }
@@ -2143,6 +2170,7 @@ only screen and (max-width: 767.98px) {
     .service-list-right .service-item {
         margin-right: 30px;
     }
+
     .service-list-right .service-item:last-child {
         margin-right: 0;
     }
@@ -2562,6 +2590,7 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
+
     .team-member--hover-effect:hover:before,
     .team-member--hover-effect:hover:after,
     .team-member--hover-effect.active:before,
@@ -2583,6 +2612,7 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px),
 only screen and (max-width: 767.98px) {
+
     .team-member--hover-effect:hover:after,
     .team-member--hover-effect.active:after,
     .team-member--hover-effect.team-open:after {
@@ -2604,6 +2634,7 @@ only screen and (max-width: 767.98px) {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
     .team-member--hover-effect:hover .team-member-info,
     .team-member--hover-effect.active .team-member-info,
     .team-member--hover-effect.team-open .team-member-info {
@@ -3696,12 +3727,10 @@ only screen and (max-width: 767.98px) {
 .useful-link li {
     line-height: 1.7;
     margin-bottom: 20px;
-    width: 50%;
-    float: left;
 }
 
 .useful-link li a {
-    color: #151515;
+    color: #666666;
     position: relative;
     padding-left: 18px;
 }
@@ -3768,7 +3797,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .copyright-text p {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .copyright-text p a {
@@ -3803,6 +3832,10 @@ only screen and (max-width: 767.98px) {
 
 .text-normal {
     color: #333333 !important;
+}
+
+.text-grey {
+    color: #666666 !important;
 }
 
 .subtitle-text {
@@ -3969,6 +4002,15 @@ only screen and (max-width: 767.98px) {
     background-color: #F3F7F8 !important;
 }
 
+.meta-title {
+    font-weight: 600;
+}
+
+.meta-dscription {
+    font-size: 0.8em;
+    text-align: center;
+}
+
 .btn-article {
     position: absolute;
     top: 40%;
@@ -4045,6 +4087,14 @@ p {
     background-color: transparent !important;
 }
 
+.working-hour-footer-group {
+    padding: 10px 0;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: transparent !important;
+}
+
 .doctor-bio-detail li a {
     font-weight: bold;
     font-size: 18px;
@@ -4083,7 +4133,7 @@ p {
 .bg-nav-community {
     background-color: #b4d7e5 !important;
     border-radius: 24px;
-    width: 25%;
+    width: auto;
 }
 
 .nav-community {
@@ -4117,6 +4167,15 @@ p {
     -webkit-transition: all .3s;
     transition: all .3s;
     background: #015B7F;
+}
+
+.decor_ui_footer {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #666666;
 }
 
 .hero-rectangle1-lg {

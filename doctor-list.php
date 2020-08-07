@@ -52,8 +52,10 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     <div class="col-12">
                         <div class="breadcrumb-wrap">
                             <nav aria-label="breadcrumb">
-                                <h2 class="breadcrumb-title text-normal">Meet Our Doctor</h2>
-                                <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
+                                <h2 class="breadcrumb-title text-normal">Rekomendasi Dokter</h2>
+                                <p class="subtitle-text text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit.
+                                    Tortor
                                     posuere nulla sit
                                     ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.
                                 </p>
@@ -67,6 +69,11 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
         <section class="section-padding pt-1">
             <div class="container">
                 <div class="row">
+                    <?php 
+                        for ($i=0; $i < 8; $i++) { 
+                            # code...
+                        
+                    ?>
                     <div class="col-md-3">
                         <div class="blog-item">
                             <div class="blog-thumb">
@@ -86,219 +93,13 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                             <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-phone"></i></i><span>+01 236 547 8985</span>
-                                        </a>
-                                    </li>
-
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="blog-item">
-                            <div class="blog-thumb">
-                                <a href="">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/doctor/1.png" class="img-fluid"
-                                        alt="blog thumb" style="border-radius: 24px;">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <h3 class="blog-title doctor-name">
-                                    <a href="">Dr. Marry Goodshepherd</a>
-                                </h3>
-                                <p> <small style="color: #E12454;">Doctor of Dental Surgery (DDS) </small> </p>
-                                <ul class="doctor-bio">
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-phone"></i></i><span>+01 236 547 8985</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="blog-item">
-                            <div class="blog-thumb">
-                                <a href="">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/doctor/1.png" class="img-fluid"
-                                        alt="blog thumb" style="border-radius: 24px;">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <h3 class="blog-title doctor-name">
-                                    <a href="">Dr. Marry Goodshepherd</a>
-                                </h3>
-                                <p> <small style="color: #E12454;">Doctor of Dental Surgery (DDS) </small> </p>
-                                <ul class="doctor-bio">
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-phone"></i></i><span>+01 236 547 8985</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="blog-item">
-                            <div class="blog-thumb">
-                                <a href="">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/doctor/1.png" class="img-fluid"
-                                        alt="blog thumb" style="border-radius: 24px;">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <h3 class="blog-title doctor-name">
-                                    <a href="">Dr. Marry Goodshepherd</a>
-                                </h3>
-                                <p> <small style="color: #E12454;">Doctor of Dental Surgery (DDS) </small> </p>
-                                <ul class="doctor-bio">
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-phone"></i></i><span>+01 236 547 8985</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="blog-item">
-                            <div class="blog-thumb">
-                                <a href="">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/doctor/1.png" class="img-fluid"
-                                        alt="blog thumb" style="border-radius: 24px;">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <h3 class="blog-title doctor-name">
-                                    <a href="">Dr. Marry Goodshepherd</a>
-                                </h3>
-                                <p> <small style="color: #E12454;">Doctor of Dental Surgery (DDS) </small> </p>
-                                <ul class="doctor-bio">
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-phone"></i></i><span>+01 236 547 8985</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="blog-item">
-                            <div class="blog-thumb">
-                                <a href="">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/doctor/1.png" class="img-fluid"
-                                        alt="blog thumb" style="border-radius: 24px;">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <h3 class="blog-title doctor-name">
-                                    <a href="">Dr. Marry Goodshepherd</a>
-                                </h3>
-                                <p> <small style="color: #E12454;">Doctor of Dental Surgery (DDS) </small> </p>
-                                <ul class="doctor-bio">
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-phone"></i></i><span>+01 236 547 8985</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="blog-item">
-                            <div class="blog-thumb">
-                                <a href="">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/doctor/1.png" class="img-fluid"
-                                        alt="blog thumb" style="border-radius: 24px;">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <h3 class="blog-title doctor-name">
-                                    <a href="">Dr. Marry Goodshepherd</a>
-                                </h3>
-                                <p> <small style="color: #E12454;">Doctor of Dental Surgery (DDS) </small> </p>
-                                <ul class="doctor-bio">
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-phone"></i></i><span>+01 236 547 8985</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="blog-item">
-                            <div class="blog-thumb">
-                                <a href="">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/doctor/1.png" class="img-fluid"
-                                        alt="blog thumb" style="border-radius: 24px;">
-                                </a>
-                            </div>
-                            <div class="blog-content">
-                                <h3 class="blog-title doctor-name">
-                                    <a href="">Dr. Marry Goodshepherd</a>
-                                </h3>
-                                <p> <small style="color: #E12454;">Doctor of Dental Surgery (DDS) </small> </p>
-                                <ul class="doctor-bio">
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="text-muted">
-                                            <i class="fa fa-phone"></i></i><span>+01 236 547 8985</span>
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        }
+            ?>
 
                 </div>
             </div>

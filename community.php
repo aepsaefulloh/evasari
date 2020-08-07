@@ -53,7 +53,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                         <div class="breadcrumb-wrap">
                             <nav aria-label="breadcrumb">
                                 <h2 class="breadcrumb-title text-normal">Komunitas</h2>
-                                <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                <p class="subtitle-text text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing
                                     elit.
                                     Tortor
                                     posuere nulla sit
@@ -65,60 +65,78 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                 </div>
             </div>
         </div>
-        <section class="section-padding pt-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <nav class="d-flex justify-content-center">
-                            <div class="nav nav-tabs bg-nav-community d-flex justify-content-center border-0" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link nav-community active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
-                                    role="tab" aria-controls="nav-home" aria-selected="true">Artikel</a>
-                                <a class="nav-item nav-link nav-community" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
-                                    role="tab" aria-controls="nav-profile" aria-selected="false">Foto & Video</a>
-                            </div>
-                        </nav>
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                                aria-labelledby="nav-home-tab">
-                                <div class="row">
-                                    <?php 
-                                        for($i = 0; $i < 6; $i++){
-                                    ?>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="card pt-5" style="border: 0;">
-                                            <img src="<?php echo ROOT_URL?>/assets/img/service/1.png?<?php echo rand()?>"
-                                                class="card-img-top rounded-img img-recent" alt="...">
-                                            <div class="card-body card-recent-article">
-                                                <div class="row">
-                                                    <div class="col-md-10">
-                                                        <h4 class="card-text text-normal text-bold mb-1">Unit Gawat
-                                                            Darurat
-                                                            (UGD)</h4>
-                                                    </div>
-                                                    <div class="col-md-2 align-self-center">
-                                                        <a href="" class="arrow-read text-normal">
-                                                            <i class="fa fa-arrow-right"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <?php
-                                        }
-                                    ?>
-                                </div>
 
+        <section class="section-padding pt-5">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <h3 class="title text-normal">Artikel</h3>
+                </div>
+                <div class="row">
+                    <?php
+                            for($i=0; $i < 3; $i++){
+                        ?>
+                    <div class="col-md-4">
+                        <div class="card pt-5" style="border: 0;">
+                            <img src="<?php echo ROOT_URL?>/assets/img/service/1.png?<?php echo rand()?>"
+                                class="card-img-top rounded-img img-recent" alt="...">
+                            <div class="card-body card-recent-article">
+                                <h5 class="meta-title card-text text-normal text-center">Tips Tetap
+                                    Sehat di New Normal</h5>
+                                <p class="meta-dscription text-normal mt-2">
+                                    Tempus convallis egestas blandit quis id enim. Aliquam consequat
+                                    etiam viverra.
+                                </p>
                             </div>
-                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
-                                aria-labelledby="nav-profile-tab">
-                                B</div>
                         </div>
                     </div>
-
+                    <?php
+                            }
+                        ?>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center mt-5">
+                        <a href="" class="btn btn-blue">Lebih Banyak</a>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <section class="section-padding pt-5">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <h3 class="title text-normal">Foto & Video</h3>
+                </div>
+                <div class="row">
+                    <?php
+                            for($i=0; $i < 3; $i++){
+                        ?>
+                    <div class="col-md-4">
+                        <div class="card pt-5" style="border: 0;">
+                            <img src="<?php echo ROOT_URL?>/assets/img/service/1.png?<?php echo rand()?>"
+                                class="card-img-top rounded-img img-recent" alt="...">
+                            <div class="card-body card-recent-article">
+                                <h5 class="meta-title card-text text-normal text-center">Tips Tetap
+                                    Sehat di New Normal</h5>
+                                <p class="meta-dscription text-normal mt-2">
+                                    Tempus convallis egestas blandit quis id enim. Aliquam consequat
+                                    etiam viverra.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                            }
+                        ?>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center mt-5">
+                        <a href="" class="btn btn-blue">Lebih Banyak</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <div class="breadcrumb-area bg-img-transparent">
             <div class="area-bg">
                 <div class="container">
@@ -143,7 +161,8 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <h1 class="h1 title text-normal">Our Contact</h1>
-                            <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor posuere nulla sit
+                            <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Tortor posuere nulla sit
                                 ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.</p>
                         </div>
                     </div>
