@@ -77,19 +77,19 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                     <div class="col-md-3">
                         <div class="blog-item">
                             <div class="blog-thumb">
-                                <a href="">
+                                <a href="<?php echo ROOT_URL?>/doctor-detail.php">
                                     <img src="<?php echo ROOT_URL?>/assets/img/doctor/1.png" class="img-fluid"
                                         alt="blog thumb" style="border-radius: 24px;">
                                 </a>
                             </div>
                             <div class="blog-content">
                                 <h3 class="blog-title doctor-name">
-                                    <a href="">Dr. Marry Goodshepherd</a>
+                                    <a href="<?php echo ROOT_URL?>/doctor-detail.php">Dr. Marry Goodshepherd</a>
                                 </h3>
                                 <p> <small style="color: #E12454;">Doctor of Dental Surgery (DDS) </small> </p>
                                 <ul class="doctor-bio">
                                     <li>
-                                        <a href="" class="text-muted">
+                                        <a href="mailto:<?php echo $list['EMAIL']?>" class="text-muted">
                                             <i class="fa fa-envelope"></i><span>Marry_Dr@gmail.com</span>
                                         </a>
                                     </li>

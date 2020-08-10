@@ -2,9 +2,12 @@
     .subtitle-text {
         padding: 0 !important;
     }
+    .index-doc-img {
+        border-radius: 6px !important;
+    }
     .card-body-doctor {
-        border-top-left-radius: 32px;
-        border-bottom-left-radius: 32px;
+        border-radius: 6px !important;
+        padding: 1.5em;
     }
     .article-headline {
         margin-top: 1em;

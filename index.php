@@ -48,8 +48,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
             <div class="hero-single-slide">
                 <div class="hero-slider-item">
                     <div class="container">
-
-                        <div class="row align-items-center">
+                        <div class="row align-items-center flex-column-reverse flex-lg-row">
                             <div class="col-xl-6 col-sm-6">
                                 <div class="hero-slider-content">
                                     <h1 class="slide-title hero-title text-normal">Mommy & Kiddos</h1>
@@ -66,7 +65,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 <span class="hero-rectangle1-sm"></span>
 
                             </div>
-                            <div class="col-xl-3 col-sm-3 align-items-center">
+                            <div class="col-xl-3 col-sm-3">
                                 <span class="hero-rectangle2-sm"></span>
 
                                 <div class="image1 p-2">
@@ -79,7 +78,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
 
 
                             </div>
-                            <div class="col-xl-3 col-sm-3 align-items-center">
+                            <div class="col-xl-3 col-sm-3">
                                 <div class="image2 p-2">
                                     <img src="<?php echo ROOT_URL?>/assets/img/beranda/hero2.jpg"
                                         class="img-fluid rounded" alt="slider thumb">
@@ -95,7 +94,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
             </div>
         </section>
 
-        <section class="policy-area section-padding pb-125 fix wow fadeInUp" data-wow-duration="1s"
+        <section class="policy-area section-padding pb-125 wow fadeInUp" data-wow-duration="1s"
             data-wow-delay=".5s">
             <div class="container">
                 <div class="row mtn-30">
@@ -193,18 +192,18 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.</p>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="card border-0 pt-5 pb-5 wow fadeInRight" data-wow-duration="1s"
+                    <div class="col-lg-12">
+                        <div class="card border-0 pt-3 pb-3 wow fadeInRight" data-wow-duration="1s"
                             data-wow-delay=".5s">
                             <div class="row no-gutters">
                                 <div class="col-md-5">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/beranda/doctor2.jpg"
-                                        class="card-img img-fluid rounded-img" alt="...">
+                                    <img src="<?php echo ROOT_URL?>/assets/img/beranda/doctor3.jpg"
+                                        class="card-img img-fluid rounded-img index-doc-img" alt="...">
                                 </div>
                                 <div class="col-md-7 align-self-center">
-                                    <div class="card-body card-body-doctor p-5">
-                                        <h5 class="card-title text-normal">Dr. Hendry Doe</h5>
-                                        <p class="card-text"><small class="text-muted text-normal">Orthopedist</small>
+                                    <div class="card-body card-body-doctor">
+                                        <h5 class="card-title text-normal">Dr. Shireen White</h5>
+                                        <p class="card-text"><small class="text-muted">Pulmonologist</small>
                                         </p>
                                         <p class="card-text text-normal">When you come to the edge of all the light you know, and
                                             are about to step off into the darkness of the unknown, faith is knowing one
@@ -215,13 +214,14 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="card border-0 pt-5 pb-5 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                            <div class="row no-gutters">
+                    
+                    <div class="col-lg-12">
+                        <div class="card border-0 pt-3 pb-3 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                            <div class="row no-gutters flex-column-reverse flex-lg-row">
                                 <div class="col-md-7 align-self-center">
-                                    <div class="card-body card-body-doctor p-5">
+                                    <div class="card-body card-body-doctor">
                                         <h5 class="card-title text-normal">Dr. Marry Goodshepherd</h5>
-                                        <p class="card-text"><small class="text-muted text-normal">Doctor of Dental
+                                        <p class="card-text"><small class="text-muted">Doctor of Dental
                                                 Surgery (DDS)</small></p>
                                         <p class="card-text text-normal">When you come to the edge of all the light you know, and
                                             are about to step off into the darkness of the unknown, faith is knowing one
@@ -231,33 +231,12 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 </div>
                                 <div class="col-md-5">
                                     <img src="<?php echo ROOT_URL?>/assets/img/beranda/doctor1.jpg"
-                                        class="card-img img-fluid rounded-img" alt="...">
+                                        class="card-img img-fluid rounded-img index-doc-img" alt="...">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="card border-0 pt-5 pb-5 wow fadeInRight" data-wow-duration="1s"
-                            data-wow-delay=".5s">
-                            <div class="row no-gutters">
-                                <div class="col-md-5">
-                                    <img src="<?php echo ROOT_URL?>/assets/img/beranda/doctor3.jpg"
-                                        class="card-img img-fluid rounded-img" alt="...">
-                                </div>
-                                <div class="col-md-7 align-self-center">
-                                    <div class="card-body card-body-doctor p-5">
-                                        <h5 class="card-title text-normal">Dr. Shireen White</h5>
-                                        <p class="card-text"><small class="text-muted text-normal">Pulmonologist</small>
-                                        </p>
-                                        <p class="card-text text-normal">When you come to the edge of all the light you know, and
-                                            are about to step off into the darkness of the unknown, faith is knowing one
-                                            of two things will happen: there will be something solid to stand on, or you
-                                            will be taught how to fly.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="col-md-12">
                         <div class="pt-5 text-center">
                             <a class="btn btn-blue" href="">See All</a>

@@ -58,7 +58,7 @@
                                     <li><a href="<?php echo ROOT_URL?>/doctor-list.php">Rekomendasi Dokter</a></li>
                                     <li><a href="<?php echo ROOT_URL?>/tech-list.php">Teknologi Kesehatan</a></li>
                                     <li><a href="<?php echo ROOT_URL?>/community.php">Komunitas</a></li>
-                                    <li><a href="<?php echo ROOT_URL?>/article.php">Blog</a></li>
+                                    <li><a href="<?php echo ROOT_URL?>/article.php">Artikel</a></li>
                                     <li><a href="<?php echo ROOT_URL?>/contact.php">Kontak</a></li>
                                 </ul>
                             </nav>
@@ -127,7 +127,7 @@
                             <li><a href="<?php echo ROOT_URL?>/doctor-list.php">Rekomendasi Dokter</a></li>
                             <li><a href="<?php echo ROOT_URL?>/tech-list.php">Teknologi Kesehatan</a></li>
                             <li><a href="<?php echo ROOT_URL?>/community.php">Komunitas</a></li>
-                            <li><a href="<?php echo ROOT_URL?>/article.php">Blog</a></li>
+                            <li><a href="<?php echo ROOT_URL?>/article.php">Artikel</a></li>
                             <li><a href="<?php echo ROOT_URL?>/contact.php">Kontak</a></li>
                         </ul>
                     </nav>

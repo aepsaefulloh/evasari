@@ -64,11 +64,12 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                 <div class="row">
                     <div class="col-md-4">
                         <figure class="figure">
-                            <img src="<?php echo ROOT_URL?>/assets/img/doctor/2.png?<?php echo rand()?>" class="figure-img img-fluid"
-                                alt="..." style="border-radius: 24px;">
+                            <img src="<?php echo ROOT_URL?>/assets/img/doctor/2.png?<?php echo rand()?>"
+                                class="figure-img img-fluid" alt="Image Doktor Evasari Detail"
+                                style="border-radius: 24px;">
                         </figure>
                     </div>
-                    <div class="col-md-4 pr-5">
+                    <div class="col-md-4 pr-sm-5">
                         <h4 class="wh-title">Working Hours</h4>
                         <ul class="list-group mt-3">
                             <li
@@ -98,7 +99,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 pl-5">
+                    <div class="col-md-4 pl-sm-5">
                         <h4 class="wh-title">Contact Info</h4>
                         <ul class="doctor-bio-detail mt-4">
                             <li>
@@ -112,28 +113,13 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                                 </a>
                             </li>
                         </ul>
-                        <ul class="sosmed-doctor">
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                        </ul>
+                 
+                        <div class="doctor-social-link text-sm-left mt-3">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -179,11 +165,12 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
 
         <section class="section-padding fix">
             <div class="container">
-                <div class="row p-5">
+                <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center">
                             <h1 class="h1 title text-normal">Our Contact</h1>
-                            <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor posuere nulla sit
+                            <p class="subtitle-text text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Tortor posuere nulla sit
                                 ultricies et dignissim mi. Aliquam pharetra gravida enim pellentesque leo bibendum.</p>
                         </div>
                     </div>
@@ -191,7 +178,7 @@ require_once ROOT_PATH.'/lib/mysqlDao.php';
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="contact-message">
-                            <form id="contact-form" action="<?php echo ROOT_URL?>/assets/php/mail.php" method="post"
+                            <form id="contact-form" action="" method="post"
                                 class="contact-form">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
